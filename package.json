@@ -3,7 +3,7 @@
         "clean": "rm -r dist/ voruti.openhab.sdPlugin/bin/ || true",
         "build": "rollup -c && streamdeck bundle --force --output dist voruti.openhab.sdPlugin",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart voruti.openhab\"",
-        "lint": "eslint --max-warnings 0 && prettier . --check",
+        "lint": "prettier . --check && eslint --max-warnings 0",
         "lint:fix": "prettier . --write"
     },
     "prettier": "@elgato/prettier-config",
