@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "clean": "rm -r dist/ voruti.openhab.sdPlugin/bin/ || true",
         "build": "rollup -c && streamdeck bundle --force --output dist voruti.openhab.sdPlugin",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart voruti.openhab\""
     },
