@@ -1,10 +1,10 @@
 {
     "scripts": {
         "clean": "rm -r dist/ voruti.openhab.sdPlugin/bin/ || true",
-        "build": "rollup -c && streamdeck bundle --force --output dist voruti.openhab.sdPlugin",
+        "build": "rollup -c && streamdeck bundle --force --output dist voruti.openhab.sdPlugin && npm run format",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart voruti.openhab\"",
-        "lint": "prettier . --check && eslint --max-warnings 0",
-        "lint:fix": "prettier . --write"
+        "format": "prettier . --write",
+        "lint": "npm run clean && eslint --max-warnings 0"
     },
     "prettier": "@elgato/prettier-config",
     "type": "module",
