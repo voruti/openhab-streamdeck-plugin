@@ -5,4 +5,4 @@ node_modules/
 *.sdPlugin/bin
 *.sdPlugin/logs
 
-voruti.openhab.streamDeckPlugin
+dist/
