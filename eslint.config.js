@@ -1,3 +1,3 @@
 import { config } from "@elgato/eslint-config";
 
-export default config.strict ;
+export default config.strict;
