@@ -13,7 +13,7 @@
         "@elgato/eslint-config": "0.3.1",
         "@elgato/prettier-config": "0.3.1",
         "@rollup/plugin-commonjs": "28.0.9",
-        "@rollup/plugin-node-resolve": "15.3.1",
+        "@rollup/plugin-node-resolve": "16.0.3",
         "@rollup/plugin-terser": "0.4.4",
         "@rollup/plugin-typescript": "12.3.0",
         "@tsconfig/node20": "20.1.8",
